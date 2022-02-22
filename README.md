@@ -26,7 +26,7 @@ B. building (1), woodland (2), water(3)
 
 在google drive中我提供了数据预处理之后的data，可以放在一个目录中，通过修改训练命令行中的地址修改文件路径
 
-下载链接：（目前还没有，传的很慢）
+下载链接：https://drive.google.com/drive/folders/1Cfn70YVqosB6dggf701eE5szd8RcJ-Ve?usp=sharing
 
 
 
@@ -71,7 +71,7 @@ python test.py --name label2landcover --dataset_mode custom --label_dir ../data/
 
 通过此链接可以下载预训练模型的一整个folder，将此folder直接放到checkpoints文件夹中，此时命令行中`--name`即表示此文件夹的名称，test.py代码会自动找寻此文件夹中指定的预训练模型
 
-预训练模型的link： （目前也没有，还在上传比较慢）
+预训练模型的link： https://drive.google.com/drive/folders/11WTDRHZDCACzZTX0OCe92HLC410qDN7u?usp=sharing
 
 `--image_dir`和`--label_dir`表示数据集的位置，需要修改成对应的文件路径
 
